@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Documents\\IVE\\TRAMS\\Server\\CSharp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE37B32-62B6-4366-B843-3170E8C0504D}|CSharp.csproj|d:\\documents\\ive\\trams\\server\\csharp\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE37B32-62B6-4366-B843-3170E8C0504D}|CSharp.csproj|solutionrelative:src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE37B32-62B6-4366-B843-3170E8C0504D}|CSharp.csproj|d:\\documents\\ive\\trams\\server\\csharp\\src\\config\\dbconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE37B32-62B6-4366-B843-3170E8C0504D}|CSharp.csproj|solutionrelative:src\\config\\dbconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE37B32-62B6-4366-B843-3170E8C0504D}|CSharp.csproj|d:\\documents\\ive\\trams\\server\\csharp\\src\\config\\vehiclesconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE37B32-62B6-4366-B843-3170E8C0504D}|CSharp.csproj|solutionrelative:src\\config\\vehiclesconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE37B32-62B6-4366-B843-3170E8C0504D}|CSharp.csproj|d:\\documents\\ive\\trams\\server\\csharp\\src\\config\\confighelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE37B32-62B6-4366-B843-3170E8C0504D}|CSharp.csproj|solutionrelative:src\\config\\confighelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE37B32-62B6-4366-B843-3170E8C0504D}|CSharp.csproj|d:\\documents\\ive\\trams\\server\\csharp\\src\\config\\tramsconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE37B32-62B6-4366-B843-3170E8C0504D}|CSharp.csproj|solutionrelative:src\\config\\tramsconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE37B32-62B6-4366-B843-3170E8C0504D}|CSharp.csproj|d:\\documents\\ive\\trams\\server\\csharp\\src\\generics\\logginghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE37B32-62B6-4366-B843-3170E8C0504D}|CSharp.csproj|solutionrelative:src\\generics\\logginghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE37B32-62B6-4366-B843-3170E8C0504D}|CSharp.csproj|d:\\documents\\ive\\trams\\server\\csharp\\src\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE37B32-62B6-4366-B843-3170E8C0504D}|CSharp.csproj|solutionrelative:src\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE37B32-62B6-4366-B843-3170E8C0504D}|CSharp.csproj|d:\\documents\\ive\\trams\\server\\csharp\\src\\esp\\esphandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE37B32-62B6-4366-B843-3170E8C0504D}|CSharp.csproj|solutionrelative:src\\esp\\esphandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE37B32-62B6-4366-B843-3170E8C0504D}|CSharp.csproj|d:\\documents\\ive\\trams\\server\\csharp\\src\\esp\\espholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE37B32-62B6-4366-B843-3170E8C0504D}|CSharp.csproj|solutionrelative:src\\esp\\espholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DbConfig.cs",
+              "DocumentMoniker": "D:\\Documents\\IVE\\TRAMS\\Server\\CSharp\\src\\Config\\DbConfig.cs",
+              "RelativeDocumentMoniker": "src\\Config\\DbConfig.cs",
+              "ToolTip": "D:\\Documents\\IVE\\TRAMS\\Server\\CSharp\\src\\Config\\DbConfig.cs",
+              "RelativeToolTip": "src\\Config\\DbConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T11:50:53.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VehiclesConfig.cs",
+              "DocumentMoniker": "D:\\Documents\\IVE\\TRAMS\\Server\\CSharp\\src\\Config\\VehiclesConfig.cs",
+              "RelativeDocumentMoniker": "src\\Config\\VehiclesConfig.cs",
+              "ToolTip": "D:\\Documents\\IVE\\TRAMS\\Server\\CSharp\\src\\Config\\VehiclesConfig.cs",
+              "RelativeToolTip": "src\\Config\\VehiclesConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T11:50:45.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TRAMSConfig.cs",
+              "DocumentMoniker": "D:\\Documents\\IVE\\TRAMS\\Server\\CSharp\\src\\Config\\TRAMSConfig.cs",
+              "RelativeDocumentMoniker": "src\\Config\\TRAMSConfig.cs",
+              "ToolTip": "D:\\Documents\\IVE\\TRAMS\\Server\\CSharp\\src\\Config\\TRAMSConfig.cs",
+              "RelativeToolTip": "src\\Config\\TRAMSConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T11:50:42.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoggingHelper.cs",
+              "DocumentMoniker": "D:\\Documents\\IVE\\TRAMS\\Server\\CSharp\\src\\Generics\\LoggingHelper.cs",
+              "RelativeDocumentMoniker": "src\\Generics\\LoggingHelper.cs",
+              "ToolTip": "D:\\Documents\\IVE\\TRAMS\\Server\\CSharp\\src\\Generics\\LoggingHelper.cs",
+              "RelativeToolTip": "src\\Generics\\LoggingHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T09:21:59.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Server.cs",
+              "DocumentMoniker": "D:\\Documents\\IVE\\TRAMS\\Server\\CSharp\\src\\Server.cs",
+              "RelativeDocumentMoniker": "src\\Server.cs",
+              "ToolTip": "D:\\Documents\\IVE\\TRAMS\\Server\\CSharp\\src\\Server.cs",
+              "RelativeToolTip": "src\\Server.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T08:39:06.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Documents\\IVE\\TRAMS\\Server\\CSharp\\src\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Program.cs",
+              "ToolTip": "D:\\Documents\\IVE\\TRAMS\\Server\\CSharp\\src\\Program.cs",
+              "RelativeToolTip": "src\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T08:22:05.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConfigHelper.cs",
+              "DocumentMoniker": "D:\\Documents\\IVE\\TRAMS\\Server\\CSharp\\src\\Config\\ConfigHelper.cs",
+              "RelativeDocumentMoniker": "src\\Config\\ConfigHelper.cs",
+              "ToolTip": "D:\\Documents\\IVE\\TRAMS\\Server\\CSharp\\src\\Config\\ConfigHelper.cs",
+              "RelativeToolTip": "src\\Config\\ConfigHelper.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwDMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T08:37:30.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EspHolder.cs",
+              "DocumentMoniker": "D:\\Documents\\IVE\\TRAMS\\Server\\CSharp\\src\\Esp\\EspHolder.cs",
+              "RelativeDocumentMoniker": "src\\Esp\\EspHolder.cs",
+              "ToolTip": "D:\\Documents\\IVE\\TRAMS\\Server\\CSharp\\src\\Esp\\EspHolder.cs",
+              "RelativeToolTip": "src\\Esp\\EspHolder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T08:51:21.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EspHandler.cs",
+              "DocumentMoniker": "D:\\Documents\\IVE\\TRAMS\\Server\\CSharp\\src\\Esp\\EspHandler.cs",
+              "RelativeDocumentMoniker": "src\\Esp\\EspHandler.cs",
+              "ToolTip": "D:\\Documents\\IVE\\TRAMS\\Server\\CSharp\\src\\Esp\\EspHandler.cs",
+              "RelativeToolTip": "src\\Esp\\EspHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T08:17:03.156Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

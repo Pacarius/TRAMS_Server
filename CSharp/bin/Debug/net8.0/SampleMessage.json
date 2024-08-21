@@ -1,0 +1,22 @@
+{
+    "AnchorID":{
+        "VehicleID":{
+            "X":0.0,
+            "Y":0.0
+        },
+        "VehicleID2":{
+            "X":0.0,
+            "Y":0.0
+        }
+    },
+    "AnchorID2":{
+        "VehicleID":{
+            "X":0.0,
+            "Y":0.0
+        },
+        "VehicleID2":{
+            "X":0.0,
+            "Y":0.0
+        }
+    }
+}
