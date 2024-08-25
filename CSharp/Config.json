@@ -17,11 +17,12 @@
   },
   "dbConfig": {
     "DBConfig": {
-      "Host": "db",
+      "Host": "localhost",
       "User": "root",
       "Password": "vtccenter",
       "Database": "mydb",
-      "Port": 6969
+      "Port": 6969,
+      "Echo": false
     }
   },
   "tramsConfig": {
@@ -29,7 +30,7 @@
       "LogThreshold": 3,
       "EspPort": 42069,
       "ApiPort": 9696,
-      "LoggingLevel": -1
+      "LoggingLevel": 1
     }
   },
   "LamppostsConfig": {
@@ -46,6 +47,10 @@
         "Y": 0,
         "Street": "TEST"
       }
+    ],
+    "Streets": [
+      "TEST",
+      "TEST2"
     ]
   }
 }

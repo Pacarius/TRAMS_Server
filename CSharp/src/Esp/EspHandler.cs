@@ -34,6 +34,11 @@ namespace Server
                             break;
                         case 1:
                             var holder = new EspHolder(payload, out res);
+                            if(res == Response.Success)
+                                try{await Program.dBConnector.InsertLogs(holder);}
+                                catch (Exception e){
+                                    helper.Log(e.Message, this);
+                                    res = Response.SQLFailure;}
                             break;
                     //         break;
                     }
@@ -52,6 +57,7 @@ namespace Server
         Success,
         Partial,
         Empty,
+        SQLFailure,
         Fail
     }
 }

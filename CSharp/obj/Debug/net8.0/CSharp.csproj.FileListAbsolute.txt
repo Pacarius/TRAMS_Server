@@ -13,7 +13,6 @@
 /d/Documents/IVE/TRAMS/Server/CSharp/bin/Debug/net8.0/CSharp.deps.json
 /d/Documents/IVE/TRAMS/Server/CSharp/bin/Debug/net8.0/CSharp.runtimeconfig.json
 /d/Documents/IVE/TRAMS/Server/CSharp/bin/Debug/net8.0/MySqlConnector.dll
-/d/Documents/IVE/TRAMS/Server/CSharp/bin/Debug/net8.0/MySqlConnector.DependencyInjection.dll
 /d/Documents/IVE/TRAMS/Server/CSharp/obj/Debug/net8.0/CSharp.csproj.CopyComplete
 /d/Documents/IVE/TRAMS/Server/CSharp/obj/Debug/net8.0/CSharp.genruntimeconfig.cache
 /d/Documents/IVE/TRAMS/Server/CSharp/obj/Debug/net8.0/ref/CSharp.dll

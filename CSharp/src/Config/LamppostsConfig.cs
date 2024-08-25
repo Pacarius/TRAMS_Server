@@ -1,13 +1,15 @@
 using System.Text.Json.Serialization;
 
 namespace Config{
-    public class LamppostsConfig(List<Lamppost>? lampposts)
+    public class LamppostsConfig(List<Lamppost>? lampposts, List<string>? streets)
     {
         [JsonRequired]
         public List<Lamppost> Lampposts { get; set; } = lampposts ?? ([
             new Lamppost(){ID = "000000", X = 0, Y = 0, Street = "TEST"},
             new Lamppost(){ID = "000001", X = 0, Y = 0, Street = "TEST"}
             ]);
+        [JsonRequired]
+        public List<string> Streets {get; set;} = streets ?? (["TEST"]);
     }
     public class Lamppost(string iD = "NULL", double x = 0.0, double y = 0.0, string street = "NULL")
     {

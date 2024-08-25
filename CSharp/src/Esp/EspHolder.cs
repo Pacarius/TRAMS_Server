@@ -55,7 +55,37 @@ namespace Server
             return base.ToString() == null? "Literally Nothing.": JsonSerializer.Serialize(this);
         }
     }
-    class Anchor
+    class VehicleSum{
+        readonly Dictionary<string, double> X =[];
+        readonly Dictionary <string, double> Y =[];
+        readonly Dictionary<string, List<string>> Anchors = [];
+        public VehicleSum(EspHolder holder){
+            foreach (var (anchor, vehicle) in from anchor in holder.Anchors
+                                              from vehicle in anchor.Value.Vehicles
+                                              select (anchor, vehicle))
+            {
+                if (X.ContainsKey(vehicle.Key))
+                {
+                    X[vehicle.Key] += vehicle.Value.X;
+                    Y[vehicle.Key] += vehicle.Value.Y;
+                    Anchors[vehicle.Key].Add(anchor.Key);
+                }
+                else
+                {
+                    X.Add(vehicle.Key, vehicle.Value.X);
+                    Y.Add(vehicle.Key, vehicle.Value.Y);
+                    Anchors.Add(vehicle.Key, [anchor.Key]);
+                }
+            }
+        }
+        public List<(string Vehicle, double X, double Y, string[] Anchors)> GetSums(){
+            List<(string, double, double, string[])> result = [];
+            result.AddRange(from Vehicle in Anchors
+                            select (Vehicle.Key, X[Vehicle.Key] / Vehicle.Value.Count, Y[Vehicle.Key] / Vehicle.Value.Count, Vehicle.Value.ToArray()));
+            return result;
+        }
+    }
+    internal class Anchor
     {
         public Dictionary<string, Vehicle> Vehicles { get; set; }
         public Anchor(Dictionary<string, Dictionary<string, double>> Source, out Response res)
@@ -73,7 +103,7 @@ namespace Server
             res = Response.Success;
         }
     }
-    class Vehicle
+    internal class Vehicle
     {
         public double X { get; set; }
         public double Y { get; set; }

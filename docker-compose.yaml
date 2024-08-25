@@ -1,7 +1,7 @@
-version: '0.1'
+# version: '0.1'
 services:
   db:
-    image: db
+    image: db:maria
     environment:
       MYSQL_TCP_PORT: 6969
    # command: --default-authentication-plugin=mysql_native_password

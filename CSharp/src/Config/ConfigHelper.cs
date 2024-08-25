@@ -70,6 +70,6 @@ namespace Config
         [JsonRequired]
         public tramsConfig tramsConfig { get; set; } = new tramsConfig();
         [JsonRequired]
-        public LamppostsConfig LamppostsConfig { get; set; } = new LamppostsConfig(null);
+        public LamppostsConfig LamppostsConfig { get; set; } = new LamppostsConfig(null, null);
     }
 }
