@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp", "CSharp\CSharp.csproj", "{5BB41FB5-BC5C-4366-AC51-336609269B96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp", "CSharp\CSharp.csproj", "{E9DE5B63-10DD-42AF-8473-2320C48E1A03}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MultiProtocolAspNetCore", "MultiProtocolAspNetCore", "{017DACF8-F54C-41E1-8245-4A2B7A5F00B4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MultiProtocolAspNetCore", "MultiProtocolAspNetCore", "{F8E3E0B4-267E-4222-80EC-B98FCE404BBF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KestrelTcpDemo", "MultiProtocolAspNetCore\KestrelTcpDemo\KestrelTcpDemo.csproj", "{94E74F65-3F07-4566-99DD-EED77F62130A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KestrelTcpDemo", "MultiProtocolAspNetCore\KestrelTcpDemo\KestrelTcpDemo.csproj", "{35423C5F-FDF7-46F4-B2CD-67E7FC131BEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,20 +15,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5BB41FB5-BC5C-4366-AC51-336609269B96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5BB41FB5-BC5C-4366-AC51-336609269B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5BB41FB5-BC5C-4366-AC51-336609269B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5BB41FB5-BC5C-4366-AC51-336609269B96}.Release|Any CPU.Build.0 = Release|Any CPU
-		{94E74F65-3F07-4566-99DD-EED77F62130A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{94E74F65-3F07-4566-99DD-EED77F62130A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{94E74F65-3F07-4566-99DD-EED77F62130A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{94E74F65-3F07-4566-99DD-EED77F62130A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9DE5B63-10DD-42AF-8473-2320C48E1A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9DE5B63-10DD-42AF-8473-2320C48E1A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9DE5B63-10DD-42AF-8473-2320C48E1A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9DE5B63-10DD-42AF-8473-2320C48E1A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35423C5F-FDF7-46F4-B2CD-67E7FC131BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35423C5F-FDF7-46F4-B2CD-67E7FC131BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35423C5F-FDF7-46F4-B2CD-67E7FC131BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35423C5F-FDF7-46F4-B2CD-67E7FC131BEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{94E74F65-3F07-4566-99DD-EED77F62130A} = {017DACF8-F54C-41E1-8245-4A2B7A5F00B4}
+		{35423C5F-FDF7-46F4-B2CD-67E7FC131BEA} = {F8E3E0B4-267E-4222-80EC-B98FCE404BBF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8DA6CD57-BB95-467E-AFA4-6E50CDA21B1D}

@@ -17,12 +17,13 @@
   },
   "dbConfig": {
     "DBConfig": {
-      "Host": "localhost",
+      "Host": "127.0.0.1",
       "User": "root",
       "Password": "vtccenter",
       "Database": "mydb",
       "Port": 6969,
-      "Echo": false
+      "Leeway": 5,
+      "ResSensitivity": 2
     }
   },
   "tramsConfig": {
@@ -49,8 +50,7 @@
       }
     ],
     "Streets": [
-      "TEST",
-      "TEST2"
+      "TEST"
     ]
   }
 }

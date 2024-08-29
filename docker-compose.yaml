@@ -4,6 +4,7 @@ services:
     image: db:maria
     environment:
       MYSQL_TCP_PORT: 6969
+      TZ : Asia/Hong_Kong
    # command: --default-authentication-plugin=mysql_native_password
     volumes:
       - data:/var/lib/mysql

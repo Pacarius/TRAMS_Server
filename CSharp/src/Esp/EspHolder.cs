@@ -12,8 +12,19 @@ namespace Server
     internal class EspHolder
     {
         readonly ILoggingHelper helper = new() {LoggingDepth = 99};
-        public Dictionary<string, Anchor> Anchors { get; set; }
-        public EspHolder(string JsonSource, out Response _res) : this(JsonSerializer.Deserialize<Dictionary<string, Dictionary<string, Dictionary<string, double>>>>(JsonSource), out _res) { }
+        public Dictionary<string, Anchor>? Anchors { get; set; }
+        public EspHolder(string JsonSource, out Response _res) { 
+            try
+            {
+                var Source = JsonSerializer.Deserialize<Dictionary<string, Dictionary<string, Dictionary<string, double>>>>(JsonSource);
+                Anchors = new EspHolder(Source, out Response res).Anchors;
+                _res = res;
+            }
+            catch (JsonException)
+            {
+                _res = Response.Fail;
+            }
+        }
         Response res = Response.Begin;
         Response _res { get {
             helper.Log($"Got response {res.ToString()}", this);

@@ -22,7 +22,6 @@ D:/Documents/IVE/TRAMS/Server/CSharp/bin/Debug/net8.0/CSharp.runtimeconfig.json
 D:/Documents/IVE/TRAMS/Server/CSharp/bin/Debug/net8.0/CSharp.dll
 D:/Documents/IVE/TRAMS/Server/CSharp/bin/Debug/net8.0/CSharp.pdb
 D:/Documents/IVE/TRAMS/Server/CSharp/bin/Debug/net8.0/MySqlConnector.dll
-D:/Documents/IVE/TRAMS/Server/CSharp/bin/Debug/net8.0/MySqlConnector.DependencyInjection.dll
 D:/Documents/IVE/TRAMS/Server/CSharp/obj/Debug/net8.0/CSharp.csproj.AssemblyReference.cache
 D:/Documents/IVE/TRAMS/Server/CSharp/obj/Debug/net8.0/CSharp.GeneratedMSBuildEditorConfig.editorconfig
 D:/Documents/IVE/TRAMS/Server/CSharp/obj/Debug/net8.0/CSharp.AssemblyInfoInputs.cache

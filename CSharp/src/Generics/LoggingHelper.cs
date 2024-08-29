@@ -15,6 +15,9 @@ namespace CSharp.src.Generics
         internal void Log(string message, object Source){
             if(LoggingEnabled) Console.WriteLine($"Depth:{LoggingDepth}; Source:{Source.GetType()}, Message:{message}");
         }
+        internal void Log(string message, string Source){
+            if(LoggingEnabled) Console.WriteLine($"Depth:{LoggingDepth}; Source:{Source}, Message:{message}");
+        }
         internal void LogDirect(string message){if(LoggingEnabled) Console.WriteLine(message);}
     }
 }
