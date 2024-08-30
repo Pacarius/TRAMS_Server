@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/PCPG/Documents/IVE/TRAMS/Server/CSharp/CSharp.csproj": {}
+    "/d/Documents/IVE/TRAMS/Server/CSharp/CSharp.csproj": {}
   },
   "projects": {
-    "/home/PCPG/Documents/IVE/TRAMS/Server/CSharp/CSharp.csproj": {
+    "/d/Documents/IVE/TRAMS/Server/CSharp/CSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/PCPG/Documents/IVE/TRAMS/Server/CSharp/CSharp.csproj",
+        "projectUniqueName": "/d/Documents/IVE/TRAMS/Server/CSharp/CSharp.csproj",
         "projectName": "CSharp",
-        "projectPath": "/home/PCPG/Documents/IVE/TRAMS/Server/CSharp/CSharp.csproj",
+        "projectPath": "/d/Documents/IVE/TRAMS/Server/CSharp/CSharp.csproj",
         "packagesPath": "/home/PCPG/.nuget/packages/",
-        "outputPath": "/home/PCPG/Documents/IVE/TRAMS/Server/CSharp/obj/",
+        "outputPath": "/d/Documents/IVE/TRAMS/Server/CSharp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/PCPG/.nuget/NuGet/NuGet.Config"
