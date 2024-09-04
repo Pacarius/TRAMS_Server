@@ -17,19 +17,25 @@ namespace Server
         public void ConfigureServices(IServiceCollection services)
         {
             // services.AddMySqlDataSource($"Server={Configs.Host};User ID={Configs.User};Password={Configs.Password};Database={Configs.Database}");
+            // services.AddCors(options => {
+            //     options.AddDefaultPolicy(builder => builder
+            //         .AllowAnyMethod()
+            //         .AllowCredentials()
+            //         .SetIsOriginAllowed((host) => true)
+            //         .AllowAnyHeader());
+            // });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment()) app.UseDeveloperExceptionPage();
-            app.UseRouter(routes =>
-            {
-                foreach(string s in Routes.RouteList.Keys){
+            app.UseRouter(routes => {
+                foreach (string s in Routes.RouteList.Keys)
                     routes.MapGet(s, Routes.RouteList[s]);
-                }
-            }).Run(async (context) =>
-            {
+            })
+            // .UseCors()
+            .Run(async (context) => {
                 Console.WriteLine(context.GetEndpoint());
                 await context.Response.WriteAsync("Hello World!");
             });

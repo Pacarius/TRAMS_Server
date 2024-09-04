@@ -1,0 +1,56 @@
+{
+  "VehiclesConfig": {
+    "Vehicles": [
+      {
+        "PlateNo": "00000000",
+        "OwnerName": "you",
+        "OwnerID": "you",
+        "Type": 6
+      },
+      {
+        "PlateNo": "11111111",
+        "OwnerName": "me",
+        "OwnerID": "me",
+        "Type": 8
+      }
+    ]
+  },
+  "dbConfig": {
+    "DBConfig": {
+      "Host": "db",
+      "User": "root",
+      "Password": "vtccenter",
+      "Database": "mydb",
+      "Port": 6969,
+      "Leeway": 5,
+      "ResSensitivity": 1
+    }
+  },
+  "tramsConfig": {
+    "TRAMSConfig": {
+      "LogThreshold": 3,
+      "EspPort": 42069,
+      "ApiPort": 9696,
+      "LoggingLevel": -1
+    }
+  },
+  "LamppostsConfig": {
+    "Lampposts": [
+      {
+        "ID": "000000",
+        "X": 0,
+        "Y": 0,
+        "Street": "TEST"
+      },
+      {
+        "ID": "000001",
+        "X": 0,
+        "Y": 0,
+        "Street": "TEST"
+      }
+    ],
+    "Streets": [
+      "TEST"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+/d/Documents/IVE/TRAMS/Server/CSharp/bin/Release/net8.0/publish/CSharp
+/d/Documents/IVE/TRAMS/Server/CSharp/bin/Release/net8.0/publish/CSharp.dll
+/d/Documents/IVE/TRAMS/Server/CSharp/bin/Release/net8.0/publish/CSharp.deps.json
+/d/Documents/IVE/TRAMS/Server/CSharp/bin/Release/net8.0/publish/CSharp.runtimeconfig.json
+/d/Documents/IVE/TRAMS/Server/CSharp/bin/Release/net8.0/publish/CSharp.pdb
+/d/Documents/IVE/TRAMS/Server/CSharp/bin/Release/net8.0/publish/MySqlConnector.dll

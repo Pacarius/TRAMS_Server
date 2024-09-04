@@ -1,0 +1,5 @@
+getro:owner
+getrstreet:street
+getvo:owner
+getvqr:plateNo
+insertreservation:datetime,Duration,X,Y,Street,VehicleID

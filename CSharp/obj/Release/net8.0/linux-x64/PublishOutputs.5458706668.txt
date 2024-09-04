@@ -1,0 +1,2 @@
+/d/Documents/IVE/TRAMS/Server/CSharp/bin/Release/net8.0/linux-x64/publish/CSharp.pdb
+/d/Documents/IVE/TRAMS/Server/CSharp/bin/Release/net8.0/linux-x64/publish/CSharp

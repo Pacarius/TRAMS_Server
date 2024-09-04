@@ -11,7 +11,7 @@ namespace Config
         [JsonRequired]
         public ushort ApiPort {get; set;} = 9696;
         [JsonRequired]
-        public int LoggingLevel { get; set;} = 1;
+        public int LoggingLevel { get; set;} = -1;
     }
     public class tramsConfig{
         public TRAMSConfig TRAMSConfig {get; set;}= new TRAMSConfig();

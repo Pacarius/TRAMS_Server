@@ -2,11 +2,12 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Text.Json.Serialization.Metadata;
 using CSharp.src.Generics;
+using Microsoft.AspNetCore.Mvc.Razor;
 namespace Config
 {
     public class ConfigHelper
     {
-        ILoggingHelper helper = new() { LoggingDepth = 1 };
+        static ILoggingHelper helper = new() { LoggingDepth = 1 };
         readonly JsonSerializerOptions jsonOptions = new() { WriteIndented = true,
         //    TypeInfoResolver = new DefaultJsonTypeInfoResolver
         //    {
@@ -23,7 +24,7 @@ namespace Config
         //}
         //    }
         };
-        static string ConfigPath = "Config.json";
+        static string ConfigPath = "config/Config.json";
         public int LoggingDepth => Configs.tramsConfig.TRAMSConfig.LoggingLevel;
         public ConfigHolder Configs { get; private set; } = new(){
             VehiclesConfig = new VehiclesConfig(null),
@@ -33,6 +34,8 @@ namespace Config
         public static async Task<ConfigHelper> CreateHelper()
         {
             var tmp = new ConfigHelper();
+                if(!Directory.Exists("config")) Directory.CreateDirectory("config");
+                helper.Log(Directory.GetCurrentDirectory(), "ConfigHelper");
                 if (!File.Exists(ConfigPath))
                 { 
                     await tmp.WriteFile(); 
